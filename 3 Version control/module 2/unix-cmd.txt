@@ -1,0 +1,12 @@
+Some comman Linux commands.....
+
+cd: Change directory to navigate the file system.
+ls: List contents of a directory, with flags like -l for detailed info 
+            and -a to show hidden files.
+pwd: Print the current working directory path.
+cp: Copy files or folders.
+mv: Move files or folders.
+man: Access the manual for any command to understand its usage and flags.
+
+
+The -l and -a given in ls command are called Flags they are used to change behaviour of the command
