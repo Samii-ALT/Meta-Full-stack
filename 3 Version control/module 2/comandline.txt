@@ -1,0 +1,17 @@
+# Important initial comands
+
+cd (foldername)  ->   comandline will now point at (foldername)
+cd ..            ->   Move out of current directory to parent directory
+mkdir (foldername)->  create a new folder with name of (foldername)
+touch (filename) ->   create a new empty file name of (filename)
+
+
+#Making setup for a project:
+cd ~/Desktop
+mkdir myjsProject
+cd ~/myjsProject
+touch project.js
+code project.js 
+
+
+code project.js will open project.js in vscode.
