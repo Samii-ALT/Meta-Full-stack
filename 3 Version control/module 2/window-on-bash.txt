@@ -1,0 +1,7 @@
+Window has cmd and powershell If you try to type Unix commands like 
+ls -la, pwd, or chmod into standard Windows CMD, you will receive a 
+frustrating "Command Not Found" error.
+
+
+In Window we can install git Bash for run the Linux Commands.
+
