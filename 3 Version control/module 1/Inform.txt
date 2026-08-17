@@ -1,0 +1,106 @@
+# Module 1 — Software Collaboration & Version Control
+
+## Overview
+
+In Module 1 of the Version Control course, I learned how modern software developers collaborate on shared codebases and how version control systems help teams manage changes safely and efficiently.
+
+## What is Version Control?
+
+Version control is a system that records changes made to files over time. It allows developers to track revisions, understand what changed, identify who made a change, and return files to an earlier stable version when necessary.
+
+Version control is especially important when multiple developers are working on the same project because it helps organize changes and reduces the risk of accidentally overwriting other developers' work.
+
+## Benefits of Version Control
+
+Some important benefits include:
+
+* Tracking changes to project files
+* Maintaining revision history
+* Identifying who made a change and when
+* Reverting files to an earlier stable version
+* Supporting collaboration across a shared codebase
+* Helping developers investigate why a change was made
+* Supporting code review and professional development workflows
+
+Version control does not eliminate bugs, testing, or communication between developers. Instead, it provides tools that make collaboration and software development more reliable.
+
+## Centralized vs Distributed Version Control
+
+I learned that version control systems can generally be categorized as centralized or distributed.
+
+### Centralized Version Control
+
+In a centralized system, the main repository is stored on a central server. Developers typically need to connect to the server to perform operations.
+
+Examples:
+
+* Subversion (SVN)
+* Concurrent Versions System (CVS)
+
+### Distributed Version Control
+
+In a distributed system, each developer can have a complete copy of the repository and its history locally.
+
+Examples:
+
+* Git
+* Mercurial
+
+## Revision History
+
+Revision history records the changes made to a project over time.
+
+It can help developers:
+
+* Find when a change was introduced
+* Identify who made the change
+* Understand what was changed
+* Investigate the cause of a bug
+* Return the project to an earlier stable state
+
+## Merge Conflicts
+
+When multiple developers make overlapping changes to the same parts of a codebase, a merge conflict may occur.
+
+A merge conflict happens when the version control system cannot automatically determine which changes should be kept. The conflicting changes must then be reviewed and resolved by the developers.
+
+## Staging and Production
+
+I learned the difference between staging and production environments.
+
+**Staging** is an environment used to test and review changes before they are released.
+
+**Production** is the live environment where the software is available to its actual users.
+
+This separation helps teams test changes before they reach users.
+
+## Software Collaboration Workflow
+
+A professional software development workflow can involve:
+
+1. Developing a change locally
+2. Tracking the change using version control
+3. Reviewing and testing the change
+4. Resolving conflicts when necessary
+5. Approving the change
+6. Releasing the change to production
+
+Version control provides the foundation for managing this process and maintaining a reliable history of the project.
+
+## Key Takeaways
+
+* Version control helps developers manage and track changes.
+* Revision history provides information about previous versions of a project.
+* Centralized systems rely on a main server, while distributed systems provide repositories locally.
+* Git is a distributed version control system.
+* Merge conflicts can occur when changes overlap and cannot be automatically combined.
+* Version control supports collaboration but does not replace communication, testing, or code review.
+* Staging provides a place to test changes before they reach production.
+* Version control is an essential part of modern software development workflows.
+
+## My Progress
+
+* Module: **1 — Software Collaboration**
+* Knowledge Check: **100%**
+* Module Quiz: **100%**
+
