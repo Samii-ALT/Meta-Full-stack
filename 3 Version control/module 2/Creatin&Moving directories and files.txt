@@ -1,0 +1,12 @@
+Let's suppose we are in directory Project
+We make 2 folders in it.
+mkdir Submission
+mkdir Archive
+
+If we want to move Submission folder in Archive we can use this command
+
+mv Submission Archive
+
+It will move Submission into archive with all it's files.
+
+(/Project/Archive/Submission)
