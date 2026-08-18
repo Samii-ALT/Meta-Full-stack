@@ -1,0 +1,34 @@
+# Opening Text File:
+
+To open a file for example file1.txt run: cat file1.txt
+It will show content of file1 like text paragarph
+
+
+#Counting words in a text file:
+
+To count words in file1 we can type: wc file1.txt -w
+It will giv something like 1974 file1.txt
+It means file 1 have 1974 words
+
+
+# Counting file in directory:
+
+Suppose in current directory there are two files. file1.txt and file2.txt
+But when there are too many files.. to count them
+ls | wc -w 
+"|" Is pipe.
+
+
+#Counting Words of file without opening file
+
+IN current directory where we have two files do:
+cat file1.txt | wc -w
+It will return 1974
+
+
+
+# Counting words in both files together:
+
+IN current directory where we have two files do:
+cat file1.txt file2.txt | wc -w
+It will return something like 3021
