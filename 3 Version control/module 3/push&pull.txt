@@ -1,0 +1,40 @@
+
+aanns@SAMI MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+aanns@SAMI MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 538 bytes | 538.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Samii-ALT/Learning-Git-and-Github.git
+   596cdf6..9a30021  main -> main
+
+aanns@SAMI MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ cat test.txt
+TEST File
+aanns@SAMI MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 942 bytes | 134.00 KiB/s, done.
+From https://github.com/Samii-ALT/Learning-Git-and-Github
+   9a30021..d519122  main       -> origin/main
+Updating 9a30021..d519122
+Fast-forward
+ test.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ cat test.txt
+This is my change.
