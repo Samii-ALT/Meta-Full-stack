@@ -1,0 +1,15 @@
+touch file1.txt
+mkdir dir1
+cd dir1
+cd ..
+mv file1.txt dir1
+mkdir -p dir2/dir3
+touch file2.txt
+mv file2 dir2/dir3
+touch file3.txt
+mv file3.txt dir2
+ls -l dir1
+cd dir2/dir3
+ls -l
+cd ..
+ls -l 
