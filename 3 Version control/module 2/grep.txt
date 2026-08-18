@@ -1,0 +1,10 @@
+Grep is case senstive which is used to match something..
+for example if we have a file names.txt
+there are hundereds of names in that file and if we have to find only that names
+who starts with Sam we can write...
+grep Sam names.txt
+
+Remember that it is case senstive
+To make it incasesenstive give the flag -i
+
+to find exact words use flag -w
