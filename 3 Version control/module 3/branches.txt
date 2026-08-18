@@ -1,0 +1,48 @@
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ pwd
+/c/Users/aanns/Desktop/learning-git/Learning-Git-and-Github
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (main)
+$ git checkout -B feature/lesson
+Switched to a new branch 'feature/lesson'
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (feature/lesson)
+$ git branch
+* feature/lesson
+  main
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (feature/lesson)
+$ touch test2.txt
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (feature/lesson)
+$ git add test2.txt
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (feature/lesson)
+$ git commit -m "Added test 2.txt"
+[feature/lesson a2594ad] Added test 2.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test2.txt
+
+Username MINGW64 ~/Desktop/learning-git/Learning-Git-and-Github (feature/lesson)
+$ git push -u origin feature/lesson
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature/lesson' on GitHub by visiting:
+remote:      https://github.com/Samii-ALT/Learning-Git-and-Github/pull/new/feature/lesson
+remote:
+To https://github.com/Samii-ALT/Learning-Git-and-Github.git
+ * [new branch]      feature/lesson -> feature/lesson
+branch 'feature/lesson' set up to track 'origin/feature/lesson'.
