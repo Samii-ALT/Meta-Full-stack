@@ -1,0 +1,12 @@
+To check the current directory run command "pwd"
+It will return the current working directory.
+ON root directory It will just return /
+
+To check other directories in it use command "ls"
+use the flag -l with ls to show them as list. (ls -l)
+
+In root we explored "etc".
+to go back to root there are two ways:
+1 ->  cd ..
+2 ->  cd /
+
