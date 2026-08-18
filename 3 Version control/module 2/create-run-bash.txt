@@ -1,0 +1,9 @@
+First of all on command line run vim powershell.sh
+This will create a file powershell.sh file.
+Press "I" to go in insert mode.
+Then write #!/bin/bash it will direct now on next line write (echo "Hello World") bracket excluded
+Then Press ESC to go out of insert mode.
+Write :wq! to go out of powershell.sh and save it we can't execute it yet bcz it is rw only means read and write not xrw
+To make it execuable run chmod 755 powershell.sh
+To execute powershell now run: ./powershell.sh
+It will Print "Hello World"
