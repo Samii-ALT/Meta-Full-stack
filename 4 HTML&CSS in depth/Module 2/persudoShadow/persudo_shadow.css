@@ -1,0 +1,8 @@
+.texture{
+    border: 1px;
+    padding: 20px;
+}
+
+.texture:hover{
+    box-shadow: 5px 0px 25px black;
+}
