@@ -1,0 +1,65 @@
+ /* Main text properies */
+
+ h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
+
+/* Text alignment */
+
+p {
+    text-align: center;
+}
+/* 
+left
+right
+center
+justify */
+
+
+
+
+
+
+/* Text decoration */
+
+p {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+
+
+
+/* Text effects */
+
+p {
+    text-shadow: 3px 3px 5px gray;
+    text-indent: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+/* Writing direction */
+
+/* horizontal-tb
+vertical-lr
+vertical-rl */
+
+
