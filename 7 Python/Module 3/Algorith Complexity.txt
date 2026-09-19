@@ -1,0 +1,24 @@
+1.   Constant
+It take Constant time and space everytime. depite of size.
+For example: "Dictionary" User just have to insert key and Dictionary will 
+give output regarding to key.
+
+
+
+2. Linear time.
+It will grow according to size.
+For example: for i in range(100): print("Hello")
+It will run very fast but if we replace range with 1M time will increase according to size
+
+
+
+3. Lograithm
+It divide things from middle to find some thing specific.
+
+
+4. Quadratic time
+
+
+
+5.Exponential time
+An algorithm that's growth doubles with each iteration.
