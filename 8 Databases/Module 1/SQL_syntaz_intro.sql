@@ -1,0 +1,2 @@
+CREATE DATABASE college;
+CREATE TABLE student;
