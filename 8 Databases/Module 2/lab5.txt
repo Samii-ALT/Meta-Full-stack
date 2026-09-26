@@ -1,0 +1,41 @@
+coder@2c0ab03cc41d:~/project$ mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.28 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE bookshop;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> USE bookshop;
+Database changed
+mysql> CREATE TABLE customers(customerID int, customerName varchar(50), customerAddress varchar(255));
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> show tables;
++--------------------+
+| Tables_in_bookshop |
++--------------------+
+| customers          |
++--------------------+
+1 row in set (0.00 sec)
+
+mysql> INSERT INTO customers(customerID, customerName, customerAddress) VALUES (1, "Jack", "115 Old street Belfast");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> SELECT * FROM customers;
++------------+--------------+------------------------+
+| customerID | customerName | customerAddress        |
++------------+--------------+------------------------+
+|          1 | Jack         | 115 Old street Belfast |
++------------+--------------+------------------------+
+1 row in set (0.00 sec)
+
+mysql>
