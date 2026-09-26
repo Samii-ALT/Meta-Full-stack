@@ -1,0 +1,72 @@
+coder@17da7bbb919d:~/project$ mysql;
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.28 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> CREATE DATABASE Test;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> USE Test;
+Database changed
+mysql> CREATE DATABASE cm_devices;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> USE cm_devices
+Database changed
+mysql> CREATE TABLE devices( deviceID int, deviceName varchar(50), price decimal);
+Query OK, 0 rows affected (0.20 sec)
+
+mysql> show tables;
++----------------------+
+| Tables_in_cm_devices |
++----------------------+
+| devices              |
++----------------------+
+1 row in set (0.00 sec)
+
+mysql> show columns from devices;
++------------+---------------+------+-----+---------+-------+
+| Field      | Type          | Null | Key | Default | Extra |
++------------+---------------+------+-----+---------+-------+
+| deviceID   | int           | YES  |     | NULL    |       |
+| deviceName | varchar(50)   | YES  |     | NULL    |       |
+| price      | decimal(10,0) | YES  |     | NULL    |       |
++------------+---------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> CREATE TABLE Stock_table;
+ERROR 4028 (HY000): A table must have at least one visible column.
+mysql> CREATE TABLE Stock_table(deviceID int, quantity int, totalCost deimal);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deimal)' at line 1
+mysql> CREATE TABLE Stock_table(deviceID int, quantity int, totalCost decimal);
+Query OK, 0 rows affected (0.21 sec)
+
+mysql> show tables
+    -> ;
++----------------------+
+| Tables_in_cm_devices |
++----------------------+
+| Stock_table          |
+| devices              |
++----------------------+
+2 rows in set (0.00 sec)
+
+mysql> show columns from Stock_table;
++-----------+---------------+------+-----+---------+-------+
+| Field     | Type          | Null | Key | Default | Extra |
++-----------+---------------+------+-----+---------+-------+
+| deviceID  | int           | YES  |     | NULL    |       |
+| quantity  | int           | YES  |     | NULL    |       |
+| totalCost | decimal(10,0) | YES  |     | NULL    |       |
++-----------+---------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> 
