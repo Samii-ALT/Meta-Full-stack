@@ -1,0 +1,5 @@
+To create:
+CREATE DATABASE database_name;
+
+Droping:
+DROP DATABASE database_name;
