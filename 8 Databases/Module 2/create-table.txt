@@ -1,0 +1,5 @@
+To create table:
+CEATE TABLE tablename(columnName1 datatype, columnName2 datatype);
+
+e.g:
+CEATE TABLE customers(name varchar(100), id int);
