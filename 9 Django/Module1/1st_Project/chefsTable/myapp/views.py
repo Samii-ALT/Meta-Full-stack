@@ -13,3 +13,6 @@ def menu(request):
 def pathing(request):
     Path = request.path
     return HttpResponse(Path, content_type='text/html', charset='utf-8')
+
+def work(request):
+    return HttpResponse("This page is working!")

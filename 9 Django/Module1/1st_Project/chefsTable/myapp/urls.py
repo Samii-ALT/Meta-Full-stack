@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.home),
     path('menu', views.menu),
     path('Check-path', views.pathing),
+    path('work', views.work),
 ]
