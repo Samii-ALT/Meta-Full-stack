@@ -6,4 +6,5 @@ urlpatterns = [
     path('menu', views.menu),
     path('Check-path', views.pathing),
     path('work', views.work),
+    path('info', views.using_variables),
 ]
