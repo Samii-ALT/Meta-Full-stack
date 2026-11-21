@@ -15,3 +15,12 @@ def Dishes(request, name):
 
     discription = Items[name]
     return HttpResponse(f"<h1> {name} </h1>" + discription)
+
+def drinks(request, drink_name):
+    drink = {
+        "mocha": "Type of coffee",
+        "tea": "Type of bevarage",
+        "lemonade": "Type of refreshment"
+    }
+    choice_of_drink = drink[drink_name]
+    return HttpResponse(f"<h2> {drink_name} </h2>" + choice_of_drink)
