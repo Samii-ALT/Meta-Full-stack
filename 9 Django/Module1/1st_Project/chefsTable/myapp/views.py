@@ -8,4 +8,8 @@ def home(request):
 
 def menu(request):
     text = """<h1 style = "color: red;"> This is little lemon again<h1>"""
-    return HttpResponse (text)
+    return HttpResponse(text)
+
+def pathing(request):
+    Path = request.path
+    return HttpResponse(Path, content_type='text/html', charset='utf-8')
